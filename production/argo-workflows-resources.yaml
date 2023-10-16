@@ -1,19 +1,21 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-events-resources
+  name: argo-workflows-resources
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   project: production
   source:
-    path: argo-events/overlays/production
-    repoURL: https://github.com/vfarcic/argo-combined-demo
+    path: argo-workflows/overlays/production
+    repoURL: https://github.com/cyberslot/argo-combined-demo
     targetRevision: HEAD
   destination:
+    namespace: argo
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       selfHeal: true
       prune: true
+
