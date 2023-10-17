@@ -3,13 +3,13 @@ kind: SealedSecret
 metadata:
   name: github-access
   namespace: argo-events
-  creationTimestamp:
+  creationTimestamp: null
 spec:
   template:
     metadata:
       name: github-access
       namespace: argo-events
-      creationTimestamp:
+      creationTimestamp: null
     type: Opaque
   encryptedData:
     token: AgBkCSdYJNyMqzlZP3p5ipCKWim7bpiySpIt+0U9Jpyym4Z7NUdV+T/dNfoL3J1KK2oRfpVWDsadMuh7uP0xsc3B8QBDJmhE2UlncQjwB9xFW2h3KHtw+AmFFh7Rtc3m3l+doRUrHHiOhJ9F7Nsn6o91dgzYNnTYwmRcr2hLPmmlm2TO1mh9p7Dgzt3XqSZf+a8+1ua5nuBUBJd7ASUKopsE5xQyRBmKXDk0OWbjng0VtmwmtvYGiGR2oPiDoxMc+7hIpjM0tZkHxuKLiqtbYBYozDJyKfzUB0DQ8AJPOR2qVOlq4EVMZPMpdrBSeEiROT66C9hEBG+VPrsVRv1tVHONfYtXiaAGlna440VbY+6QbegfpSSx0Co5i1op6fCu8bbnBCECPCXntr6UfqdTe6C+TjSedp6dzRsOHNFXo744wf47YzAbt/Ka/s703u/fqZM+G8eRvWsfivmvgEmOcvebGY9Lf8mdWzIqbajhqhxNVW1wC2dZ+xnJ51GbIhaziOo6HgFCY5mbnPhzmaTxV2qkks0kgqUyH+1f/yfz+wQCV8yWtxdAqVT8Rg4V0skx12VOpXEf9sSPiiLRVz1QWf8KpbIY0ebnLzvVmwGXU5VwTlN9JfrzpvWIAPCjCQaWVVPY3VDwqvn+IKta6J7SDt0mRNPq+jQL6BOTAxV80xKbyWLoBDDfFOIGBwBRUU5uVlshQdawUS1KZHMRPYLVdVkZjFuMC/CN/x/c+IeE3dZLlFP2SOOzCmXkibVw2+ktnRkW0eu71o2CrEFUTFH9HCFPsViatziRYdpirVfc3bamclAg2Og0o71pVP2SSE4=

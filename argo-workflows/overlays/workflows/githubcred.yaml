@@ -3,13 +3,13 @@ kind: SealedSecret
 metadata:
   name: github-access
   namespace: workflows
-  creationTimestamp:
+  creationTimestamp: null
 spec:
   template:
     metadata:
       name: github-access
       namespace: workflows
-      creationTimestamp:
+      creationTimestamp: null
     type: Opaque
   encryptedData:
     email: AgCNd42ZqsNnp0yhNCuT6rmspS4ABeSA7E6dcrj+IM9SxGN77yQ8iKLd1l0ev0kR5DPuz6MXVadOzk2koNolIpNj1uBKvmaG1QNGgd4eFou/4pPP8E/6k8oBGAzimStVXPXR/9OtXR/OlFsZ50j41V417y5wX3w/xo+63pokGrApF1EWo0cxsIAEnKv/tszpIRuBgkLDFRIJig+l+VeduDVLKH0Jv8BBJTZz1iT5tiS4gWo6pWSS7Aw+P0Sd/FKr8FYfx4BATS5ovhUE5giWb1zmg/EHH0kemPLyMfR2qKq3gyH8kyzsuTPJQrd1uWoJi6/KKi1ifWINzKQPZSHge8iCbAPWk3E2u+Xu+PYaRgQYzv7Q6fJGPirZNn/ie85SWSVd0mKWXiegyM9SRzbn4tuFVx/05lajbkxRYOiqeDxF0eX4+MBUQh64Z1wfS6DO5Kzt5tZlU+uQqjp0Qf/a3UGrjO+Fu/QG1AI5fWaeOsWJpaD7ZyApxxxyc5m8SNQfxHh2YR9yUnXu6l2H8UM22q5T4mhlea1Dj+K0bv+xed0TTGYm/0MDR7yuuiTOVaEBDEMfKizhilwyUTPD7wdECx+HcdgMu2LNXnzD+2mBU0MppP6rH8AApDRMDVCkz+PsXPhMDBrFR4PAujJz5vszH9F1lNt4YeXApkoZfQUCiQkOv4FTy4ACQuLTfSIoQXOgmjRHVv2EhEKc8x0HfBIS9yVmnk+e
