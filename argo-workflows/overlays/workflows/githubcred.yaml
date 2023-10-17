@@ -1,0 +1,24 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "github-access",
+    "namespace": "workflows",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "github-access",
+        "namespace": "workflows",
+        "creationTimestamp": null
+      },
+      "type": "Opaque"
+    },
+    "encryptedData": {
+      "email": "AgA18biYJkVi6dPTom6Sxb7t3ceFfYc5CwNyPaMWQPtccg8tvvwhTqMF7IrSn0eIE1Z737iZsdu7g0SQTo6q2hNi2Fn8kGAbLlPVhrrmiRDNe9irkZMDZH42Iaoz+ssTsciXrl0E4KouW9XdK/qi79xLqAesg1mcqXV+ufcVDErf6Aa10n0VRG1PNlKGQXc5ZOj2DFPlLGYq0mxO+1L4OMR4NJHJbOJ192Gf8tZbLcPH2ddwRUmlt8iVTyKC5+DlKdxPWS4SBUI3Kh+6R3yWxyqygucEYFP/Ry0zjKDiuXwsZwZr4hU/ME6tVxWKqxAza35EM4Eg/iw7Um2uHxAKQQIXha6BlSW68FbL+E1qil7y9kDyRovq8ubhyTLTHn7wcfuSQeG3qPGbAQYvgP+uWbI8SSgOehjxoYNEqgBXqFRgo0/bnkSRBsbyvPjsvO0fo4BO+BQGh+3B5DmPC9xhI0mIrr7V7C66xFyWMGRECpTKuo4rEkWd5puuzen4eRbScspYJfnQI1bLDr22bwSEJTtX8tnYD5zU9tJb3Vn2WFivwhauk8GqDdERAR+PD51P5boVYA6RLrc0AMaFHe+/U5Z7bXVCppXGeZUHDZNrl1EDJH7uREZ6xKqAUw3pVpdFC7xsexicKZ6fNgcD3LFIg5Pi6FHIwrr9fWNfzdmPWurx3SPJ91UTdmyf9aDzXDQuhtMXSfwUt347rXcDhOEhSanhokOQ",
+      "token": "AgAdn9wbEd5JnNzOYRZ/1ursR8g1r0N+1LPotmGlPBVZyXnaRCsRp1rEhahTjXcXqnSnM7H47pKjy3le57y+O9hOwrDzaCuKQbdA9+0+Yh+SX3XVFsAiqVBErreBDMv0pFizxsX1hC4+38774wjhm54zgjjmK3u/2fOwXgyMtBWgrQgQ2HPY3qx1OduhCFLGzPC5GdR1IohPD9nQSg3GR+rGgeMMdqVf17+E4jDVykIcNaJk9m1BuYDdWaqjuVg0keXdkjMBTJnTibXlY9xJcws8vtasDCvesBFA7Z2fVJHnKP7//e6XAEFOnapPR2mHxPxDFboDZwxFMsSS1T86r/yl9w8F7EFAPXxygS7tXb8sw+Hbq7IRQlgHk2BXtiexOP1KHM0Nj2SvtuyuK2fgxekYh/zP8lEpW9lNBoVHuaTKOVvWM1JxTMMd0uh0JGOqTC8Q2Ta1l6EXeO6yDqOo0OpogyYqkwS7rk2wlGJXS3f0RAYymzviyypeIijMwtEz3Yotqp7v8TwErlM2QCF60qZfA9vjsu35W0xAluedLwhxeqCC/iYk9f2X377JuVmBa7Q3/oPXdihtqzEpiaIT92sk2zsPJljIywOvilZhaSDuTYclHNFSCk1wTDkbPYpeRbxqQc8WXjnBJKI53rdkbLfWItHAX9LqPI0n7DH9Bd1IDsZBwQ7TwYhbwc0W/kmpyzVWXkYUqs3q4xnnJfKEJkGVQMMzTNRJSOR83E3PQLBhBJAEhwqOsAhVW9GMH0pD48f/958+XH9DV48OQtLnff9YNX34AAMXHijF3mqleWXKX63UbBHw/d8XpwbfQsw=",
+      "user": "AgBzGzVeuB1uHfwkZOKk4JK0IpdnCZYUzdLFIOd4zj/WB/0mJ/RkirOfEwEXAPuuEl5oxlos1o46Tq+/e4AFwcybqxWalTpYWdJrQ+lLFkqtyIDanwVgto2eJp/WN3ZjOugezjQKDUDM353ad7BaouAziSeMjr+DZdx4Zt44YYqUL+sjuPuWxGNPKGuJYYtW0FT05J4LaE966rSHnP071x+VQJjVKvBnZAsZv1R7MmGv7ttPBjruT+t7qGx2gAeES9Ks5r6nZS3j8cvF82c83lIveEC266r/36+e4X0nfkM/4FoPCrP2MzgzpjOX/lr0R2Ymi2H1OrgKQ22fx6Fcr6Dho/ApNkTvkOzbkqKLvyiHOvvct4urs5/sPQtbCfcvtMBOtk1qizwAblR0/jjCwgBufr1q29lrWkURFXx5dF4VUW5VX2TC6g4hYLhoRRWDTO36USsQpfPfvSqP0zw2x0kRbNpdKWeFo4UwWSGYQ44nWkakn0Y7Hkmz6hv55idX7Y6cjp5Etv3dfOB8o6goUx5J+BHVZ4dhIyjm6No94r+YIIttMblx7Zaa9/nqs5vxIcYAuDtLkMkMLIYqPo2b4oZaWt5e2bawDVl0MMfkDSSPdqk51iiBMyjHosO9Jeqdew6JZL609UAaHQf2fCTVG21X4OfJL8oF7g53lJYOJceFyYcTr6fAKmJD7nDDzoocOcmh6omuoLDpd3M="
+    }
+  }
+}
